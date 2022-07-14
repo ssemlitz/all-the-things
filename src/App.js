@@ -128,6 +128,14 @@ const App = () => {
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
   ])
+  
+  const [scottsThings, setScottsThings] = useState([
+    {
+      name: "absolute unit",
+      image: "https://imgs.xkcd.com/comics/beautiful.png",  
+      attributes: ["size", "width", "sex symbol", "beautiful"],
+    },
+  ])
 
   return (
     <Routes>
@@ -148,6 +156,10 @@ const App = () => {
       <Route
         path="/the-silly-things"
         element={<SillyThings things={huntersThings} />}
+      />
+      <Route
+        path="/the-alpha-things"
+        element={<AlphaThings things={scottsThings} />}
       />
     </Routes>
   )
