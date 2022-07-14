@@ -144,7 +144,7 @@ const App = () => {
     {
       name: "absolute unit",
       image: "https://imgs.xkcd.com/comics/beautiful.png",  
-      attributes: ["size", "width", "sex symbol", "beautiful"],
+      attributes: ["size", "width", "sex symbol", "beautiful", "the hottest thing around"],
     },
   ])
 
