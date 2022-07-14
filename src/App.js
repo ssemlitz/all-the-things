@@ -88,6 +88,7 @@ const App = () => {
       image: 'https://i.imgur.com/3BmfSOA.png',
       attributes: ['not a taco', 'not Windows', 'not macOS', 'Penguins?'],
     },
+    
   ])
 
   const [davidsThings, setDavidsThings] = useState([
@@ -126,6 +127,16 @@ const App = () => {
       name: "energy drinks",
       image: "https://imgs.xkcd.com/comics/functional.png",  
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
+    },
+    {
+      name: 'star wars',
+      image: 'https://i.imgur.com/3BmfSOA.png',
+      attributes: ['wut', 'beep boop beep', 'pew pew pew', 'dont like your sister'],
+    },
+    {
+      name: 'linux',
+      image: 'https://i.imgur.com/3BmfSOA.png',
+      attributes: ['not a taco', 'not Windows', 'not macOS', 'Penguins?'],
     },
   ])
 
