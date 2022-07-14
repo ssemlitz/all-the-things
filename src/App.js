@@ -88,9 +88,10 @@ const App = () => {
       image: 'https://i.imgur.com/3BmfSOA.png',
       attributes: ['not a taco', 'not Windows', 'not macOS', 'Penguins?'],
     },
+    
   ])
 
-  const [davidsThings, setDavidsThings] = useState([
+  const [haydeesThings, setHaydeesThings] = useState([
     {
       name: 'waffle',
       image:
@@ -127,6 +128,24 @@ const App = () => {
       image: "https://imgs.xkcd.com/comics/functional.png",  
       attributes: ["efficient", "reusability", "not a taco", "beautiful"],
     },
+    {
+      name: 'star wars',
+      image: 'https://i.imgur.com/3BmfSOA.png',
+      attributes: ['wut', 'beep boop beep', 'pew pew pew', 'dont like your sister'],
+    },
+    {
+      name: 'linux',
+      image: 'https://i.imgur.com/3BmfSOA.png',
+      attributes: ['not a taco', 'not Windows', 'not macOS', 'Penguins?'],
+    },
+  ])
+  
+  const [scottsThings, setScottsThings] = useState([
+    {
+      name: "absolute unit",
+      image: "https://imgs.xkcd.com/comics/beautiful.png",  
+      attributes: ["size", "width", "sex symbol", "beautiful"],
+    },
   ])
 
   return (
@@ -148,6 +167,10 @@ const App = () => {
       <Route
         path="/the-silly-things"
         element={<SillyThings things={huntersThings} />}
+      />
+      <Route
+        path="/the-alpha-things"
+        element={<AlphaThings things={scottsThings} />}
       />
     </Routes>
   )
