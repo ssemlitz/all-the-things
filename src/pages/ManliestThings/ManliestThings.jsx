@@ -6,7 +6,7 @@ const ManliestThings = (props) => {
   return (
     <>
       <h1>Ben's Stuff</h1>
-      <Link to="/">Hole</Link>
+      <Link to="/">Home</Link>
 
       {props.things.map((thing, idx) => 
         <ThingCard key={idx} thing={thing}/>
