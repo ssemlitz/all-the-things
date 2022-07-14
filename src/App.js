@@ -6,6 +6,7 @@ import FunctionalThings from './pages/FunctionalThings/FunctionalThings'
 import StyledThings from './pages/StyledThings/StyledThings'
 import SillyThings from './pages/SillyThings/SIllyThings'
 import Landing from './pages/Landing/Landing'
+import AlphaThings from './pages/AlphaThings/AlphaThings'
 
 const App = () => {
   const [shahzadsThings, setShazadsThings] = useState([
@@ -144,7 +145,7 @@ const App = () => {
     {
       name: "absolute unit",
       image: "https://imgs.xkcd.com/comics/beautiful.png",  
-      attributes: ["size", "width", "sex symbol", "beautiful", "the hottest thing around"],
+      attributes: ["size", "width", "sex symbol", "beautiful", "the hottest thing around", "the best gamer in the world"],
     },
   ])
 
@@ -162,7 +163,7 @@ const App = () => {
       />
       <Route
         path="/the-well-styled-things"
-        element={<StyledThings things={davidsThings} />}
+        element={<StyledThings things={haydeesThings} />}
       />
       <Route
         path="/the-silly-things"
